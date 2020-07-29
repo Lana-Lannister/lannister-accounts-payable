@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Cadastro de Contas a Pagar</h2>
+        <h3>Lannisters sempre pagam suas dívidas</h3>
+        <div class="form-control">
+          <label for="username">Digite sua casa</label>
+          <input type="text" id="username" placeholder="Ex: Stark, Baratheon" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu email da sua casa" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Chave mestra</label>
+          <input type="password" id="password" placeholder="Digite a chave mestra" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirme chave mestra</label>
+          <input type="password" id="password2" placeholder="Digite a chave mestra novamente"/>
+          <small>Error message</small>
+        </div>
+        <button type="submit">Send little birds</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
